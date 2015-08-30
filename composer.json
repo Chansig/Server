@@ -1,0 +1,42 @@
+{
+    "name": "chansig/server",
+    "description": "Server installer",
+    "keywords": [
+        "server",
+        "router"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chansig",
+            "email": "chansigweb@gmail.com"
+        }
+    ],
+    "require": {
+        "chansig/router": "dev-master",
+        "chansig/directoryindex": "dev-master"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "Chansig\\Router\\Composer\\ScriptHandler::rootPackageInstall"
+        ],
+        "post-install-cmd": [
+            "Chansig\\Router\\Composer\\ScriptHandler::install"
+        ],
+        "post-update-cmd": [
+            "Chansig\\Router\\Composer\\ScriptHandler::update"
+        ]
+    },
+    "extra": {
+        "chansig-router-parameters": {
+            "router-file": "router.php",
+            "config-file": "router.json"
+        },
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
