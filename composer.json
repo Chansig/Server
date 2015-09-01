@@ -1,6 +1,6 @@
 {
     "name": "chansig/server",
-    "description": "Server installer",
+    "description": "Chansig Server installer",
     "keywords": [
         "server",
         "router"
