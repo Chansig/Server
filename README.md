@@ -1,9 +1,9 @@
 Chansig/Server
 --------------
 
-Installer for Chansig/Router
+Installer for Chansig/Router, PHP Router for PHP5.4+ Built-in Server
 
-[Packagist](https://github.com/Chansig/Server)
+[Packagist](https://packagist.org/packages/chansig/server)
 [Github](https://github.com/Chansig/Server)
 
 ## Features

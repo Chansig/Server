@@ -2,8 +2,12 @@
     "name": "chansig/server",
     "description": "Chansig Server installer",
     "keywords": [
+        "router",
         "server",
-        "router"
+        "symfony",
+        "wordpress",
+        "laravel",
+        "phpmyadmin"
     ],
     "type": "project",
     "license": "MIT",
