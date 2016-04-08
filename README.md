@@ -10,6 +10,7 @@ Installer for Chansig/Router, PHP Router for PHP5.4+ Built-in Server
 
 - Install chansig/router and chansig/directoryIndex packages.
 - Create router.php and router.json via composer.
+- Create server.sh via composer.
 
 ## Requirement
 

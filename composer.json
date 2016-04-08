@@ -7,6 +7,7 @@
         "symfony",
         "wordpress",
         "laravel",
+        "bolt",
         "phpmyadmin"
     ],
     "type": "project",
@@ -26,19 +27,24 @@
             "Chansig\\Router\\Composer\\ScriptHandler::rootPackageInstall"
         ],
         "post-install-cmd": [
-            "Chansig\\Router\\Composer\\ScriptHandler::install"
+            "Chansig\\Router\\Composer\\ScriptHandler::install",
+            "Chansig\\Router\\Composer\\ScriptHandler::installed"
         ],
         "post-update-cmd": [
-            "Chansig\\Router\\Composer\\ScriptHandler::update"
+            "Chansig\\Router\\Composer\\ScriptHandler::update",
+            "Chansig\\Router\\Composer\\ScriptHandler::installed"
         ]
     },
     "extra": {
         "chansig-router-parameters": {
             "router-file": "router.php",
-            "config-file": "router.json"
+            "config-file": "router.json",
+            "server-file": "server.sh",
+            "server-host": "127.0.0.1",
+            "server-port": 8000
         },
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "0.2.x-dev"
         }
     },
     "prefer-stable": true,
