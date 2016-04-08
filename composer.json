@@ -23,9 +23,6 @@
         "chansig/directoryindex": "dev-master"
     },
     "scripts": {
-        "post-root-package-install": [
-            "Chansig\\Router\\Composer\\ScriptHandler::rootPackageInstall"
-        ],
         "post-install-cmd": [
             "Chansig\\Router\\Composer\\ScriptHandler::install",
             "Chansig\\Router\\Composer\\ScriptHandler::installed"

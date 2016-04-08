@@ -32,7 +32,7 @@ The recommended way to install Chansig/Server is through
 
 Next, run the Composer command to install the latest stable version of Chansig/Server:
 
-    composer.phar create-project chansig/server
+    composer.phar create-project chansig/server target-directory
 
 You can then later update Chansig/Server using composer:
 
